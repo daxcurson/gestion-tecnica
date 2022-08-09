@@ -1,5 +1,11 @@
 package ar.com.strellis.gestiontecnica.service.impl;
 
-public class EquiposServiceImpl {
+import org.springframework.stereotype.Service;
+
+import ar.com.strellis.gestiontecnica.service.EquiposService;
+
+@Service
+public class EquiposServiceImpl implements EquiposService
+{
 
 }
