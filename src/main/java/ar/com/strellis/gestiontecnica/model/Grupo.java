@@ -1,5 +1,14 @@
 package ar.com.strellis.gestiontecnica.model;
 
-public class Grupo {
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+import lombok.Data;
+
+@Entity
+@Data
+public class Grupo {
+	@Id
+	private int id;
+	private int nombre;
 }
