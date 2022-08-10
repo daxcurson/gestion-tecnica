@@ -13,4 +13,6 @@ public class Equipo {
 	private int id;
 	@ManyToOne
 	private Cliente cliente;
+	@ManyToOne
+	private Sistema sistema;
 }

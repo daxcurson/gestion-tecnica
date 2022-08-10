@@ -7,7 +7,8 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Deposito {
+public class Contacto {
 	@Id
 	private int id;
+	private Cliente cliente;
 }

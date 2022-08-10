@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Deposito {
+public class Precio {
 	@Id
 	private int id;
 }

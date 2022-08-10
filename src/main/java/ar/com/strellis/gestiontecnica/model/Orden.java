@@ -1,5 +1,18 @@
 package ar.com.strellis.gestiontecnica.model;
 
-public class Orden {
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
+import lombok.Data;
+
+@Entity
+@Data
+public class Orden {
+	@Id
+	private int id;
+	@ManyToOne
+	private TipoOrden tipoOrden;
+	@ManyToOne
+	private EstadoOrden estadoOrden;
 }

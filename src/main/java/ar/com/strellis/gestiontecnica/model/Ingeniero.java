@@ -1,5 +1,13 @@
 package ar.com.strellis.gestiontecnica.model;
 
-public class Ingeniero {
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+import lombok.Data;
+
+@Entity
+@Data
+public class Ingeniero {
+	@Id
+	private int id;
 }

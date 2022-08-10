@@ -1,5 +1,13 @@
 package ar.com.strellis.gestiontecnica.model;
 
-public class Cotizacion {
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+import lombok.Data;
+
+@Entity
+@Data
+public class Cotizacion {
+	@Id
+	private int id;
 }
