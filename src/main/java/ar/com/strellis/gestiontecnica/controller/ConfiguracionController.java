@@ -8,11 +8,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
 import ar.com.strellis.gestiontecnica.model.Cliente;
 import ar.com.strellis.gestiontecnica.service.ClientesService;
 
-public class GruposController {
+@RestController
+public class ConfiguracionController {
 	@Autowired
 	private ClientesService clientesService;
 	
